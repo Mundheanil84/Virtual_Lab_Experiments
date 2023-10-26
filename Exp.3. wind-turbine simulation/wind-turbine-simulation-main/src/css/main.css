@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body {
+	margin: 0;
+}
+
+canvas {
+	width: 100%;
+	height: 100%
+}
+
+.controls {
+  width: 290px;
+  height: 260px;
+  position: absolute;
+  border: 3px solid #AAF0D1;
+  border-radius: 3px;
+  top: 65%;
+  left: 15px;
+}
+
+.controls .batteryStats div {
+  font-family: 'Open Sans', sans-serif;
+  color: #f7e1be;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+#world {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #cefaeb;
+	overflow: hidden;
+}
+
+#energy {
+	position: absolute;
+	float: left;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+#windspeed {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 25px;
+}
+
+#airdensity {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 25px;
+}
